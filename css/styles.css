@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap');
+* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+/* //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\ */
+
+.main-container {
+    background-image: url(../images/bg.jpg);
+    height: 2250px;
+    width: 100vw;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    height: 110px;
+    width: 310px;
+}
+
+.social-btn-container {
+
+}
+
+.skateboard-container {
+    width: 500px;
+    height: 500px;
+}
