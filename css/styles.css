@@ -17,14 +17,56 @@ body {
 /* //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\ */
 
-.main-container {
+.main-page {
+    position: relative;
     background-image: url(../images/bg.jpg);
-    height: 2250px;
-    width: 100vw;
-    display: block;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+}
+.main-container {
+    position: relative;
+    margin-left: 200px;
+    width: 900px;
+}
+
+.social-btn-container {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0;
+    left: 550px;
+    top: 10px;
+    color: rgb(165, 160, 160);
+    text-decoration: none;
+}
+.social-btn-container a {
+    /* gap: 14px; */
+    color: rgb(165, 160, 160);
+    text-decoration: none;
+}
+.social-btn-container a:hover {
+    color: black;
+}
+
+
+.navbar {
+    position: relative;
+    width: 700px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    left: 150px;
+    top: 10px;
+    color: rgb(247, 243, 243);
+    background-color: rgb(225, 16, 20);
+    text-decoration: none;
+}
+.navbar a {
+    margin: 5px;
+    color: rgb(165, 160, 160);
+    text-decoration: none;
 }
 
 .logo-container {
@@ -34,6 +76,12 @@ body {
 
 .social-btn-container {
 
+    color: rgb(165, 160, 160);
+    text-decoration: none;
+}
+.social-btn-container a {
+    color: rgb(165, 160, 160);
+    text-decoration: none;
 }
 
 .skateboard-container {
