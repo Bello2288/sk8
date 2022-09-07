@@ -72,6 +72,10 @@ html {
     align-content: center;
     justify-content: center;
 } 
+.navbar a:hover {
+    background-color: rgb(246, 241, 241);
+    color: rgb(225, 16, 20);
+}
 
 .logo-container {
     position: absolute;
@@ -117,29 +121,162 @@ html {
     position: absolute;
 }
 
-.sk8-boarders-container {
-    top: 950px;
+
+ .article {
     position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 236px;
+    width: 664px;
+    left: 82px;
+    bottom: 165px;
+}
+.article > div {
+    background-color: #faf9f9;
+    margin: 5px 3px 0px 3px;
+    text-align: left;
+    padding: 15px 18px 0px 18px;
+    border-bottom: 3px solid #dcd0d0;
+  }
+.article > div > h2 {
+    font-size: 16px;
+    font-family: "Oswald";
+    background-color: #faf9f9;
+    margin: 0px;
+    padding-bottom: 6px;
+    
+}
+.article time {
+    font-size: 8px;
+    font-family: "Oswald";
+    color: #c3b8b8;
+    margin: 0px;
+}
+.article p {
+    font-size: 8px;
+    font-family: "Oswald";
+    line-height: 2;
+    margin: 0px;
+    padding: 6px 0px 6px 0px;
+}
+.article button {
+    font-size: 8px;
+    margin-left: 45px;
+    background-color: #faf9f9;
+    color: rgb(225, 16, 20);
+    border: 0;
+    transition: 0.3s;
+}
+.article button:hover {
+    color: rgb(246, 241, 241);
+    background-color: rgb(225, 16, 20);
+}
+
+
+.sk8-boarders-container {
+    position: relative;
+    height: 1px;
+    top: 540px;
+}
+.lance-img img {
+    position: relative;
+    border: 3px solid #faf9f9;
+    left: 85px;
+    top: 0px;
+    width: 219px;
+    height: 150px;
+}
+.lance-img h3 {
+    position: absolute;
+    color: #faf9f9;
+    left: 110px;
+    top: 35px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.rodney-img img {
+    position: relative;
+    border: 3px solid #faf9f9;
+    left: 310px;
+    top: -150px;
+    width: 219px;
+    height: 150px;
+}
+.rodney-img h3 {
+    position: absolute;
+    color: #faf9f9;
+    left: 360px;
+    top: 35px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.tommy-img img {
+    position: relative;
+    border: 3px solid #faf9f9;
+    left: 534px;
+    top: -300px;
+    width: 209px;
+    height: 310px;
+}
+.tommy-img h3 {
+    position: absolute;
+    color: #faf9f9;
+    left: 555px;
+    top: 120px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.steve-img img {
+    position: relative;
+    border: 3px solid #faf9f9;
+    left: 85px;
+    top: -453px;
+    width: 443px;
+    height: 153px;
+    object-fit: cover;
+    
+}
+.steve-img h3 {
+    position: absolute;
+    color: #faf9f9;
+    left: 210px;
+    top: 200px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.sb-title {
+    position: absolute;
+    color: #faf9f9;
+    background-color: rgb(225, 16, 20);
+    height: 50px;
+    width: 155px;
+    left: -80px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
 }
 
 .skateboard-container {
-    top: 1150px;
-    left: 500px;
+    top: 1000px;
+    left: 627px;
     position: absolute;
     transform: rotate(90deg);
-    display: flex;
-    height: 50px;
-    width: 175px;
+    height: 40px;
+    width: 190px;
 }
 .skateboard-container img {
     list-style-type: none;
-    /* background-color: #f6f2f2; */
-    /* padding-left: 15px; */
-    height: 100%;
-    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: #faf9f9;
+    border: 3.1px solid #faf9f9;
 }
 
 .contact-us {
-    top: 2350px;
     position: absolute;
 }
