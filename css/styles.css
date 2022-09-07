@@ -10,21 +10,19 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    background-color: blue;
-}
+
+
 
 /* //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\ */
 
 .main-page {
-    position: relative;
     background-image: url(../images/bg.jpg);
-    /* background-position: 50% 50%; */
+    background-position: 50% 50%;
     background-size: cover;
     box-sizing: content-box;
-    height: 100%;
-    width: 100%;
+    height: 1400px;
+    width: 1265px;
 }
 .main-container {
     position: relative;
@@ -33,49 +31,79 @@ body {
 }
 
 .social-btn-container {
-    position: relative;
+    position: absolute;
     margin-bottom: 10px;
     padding: 0;
-    left: 550px;
-    top: 10px;
+    left: 608px;
+    /* top: 0px; */
     color: rgb(165, 160, 160);
     text-decoration: none;
 }
 .social-btn-container a {
-    /* gap: 14px; */
-    color: rgb(165, 160, 160);
+    font-size: 14px;
+    color: rgb(213, 206, 206);
     text-decoration: none;
+    height: 12px;
+    width: 20px;
 }
 .social-btn-container a:hover {
     color: black;
 }
 
-
 .navbar {
-    position: relative;
-    width: 700px;
-    height: 50px;
+    position: absolute;
     margin: 0;
     padding: 0;
-    left: 150px;
-    top: 10px;
+    left: 70px;
+    top: 55px;
     color: rgb(247, 243, 243);
-    background-color: rgb(225, 16, 20);
-    text-decoration: none;
 }
 .navbar a {
+    display: flex;
+    font-size: 12px;
     margin: 5px;
-    color: rgb(165, 160, 160);
-    text-decoration: none;
-}
+    color: rgb(246, 241, 241);
+    background-color: rgb(225, 16, 20);
+    border-bottom: 3px solid #dcd0d0;
+    height: 25px;
+    width: 155px;
+    line-height: 7px;
+    transition: 0.3s;
+    align-content: center;
+    justify-content: center;
+} 
 
 .logo-container {
-    height: 110px;
-    width: 310px;
+    position: absolute;
+    background-color: #dcd0d0;
+    background-image: url(../images/grid.png);
+    height: 228px;
+    width: 647px;
+    left: 88px;
+    top: 110px;
+}
+.logo-pic {
+    border: 5px solid #f2eded;
+    height: 223px;
+    width: 645px;
+    background-image: url(../images/top-image.jpeg);
+    background-position: 120% 20%;
+    background-size: cover;  
+    box-sizing: content-box;
+    backface-visibility: hidden;
+    opacity: 0.7;   
+}
+.logo-pic img {
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    right: 380px;
+    top: 35px;
+
 }
 
 .social-btn-container {
-
+    top: 10px;
     color: rgb(165, 160, 160);
     text-decoration: none;
 }
@@ -84,7 +112,34 @@ body {
     text-decoration: none;
 }
 
+.posts-container {
+    top: 750px;
+    position: absolute;
+}
+
+.sk8-boarders-container {
+    top: 950px;
+    position: absolute;
+}
+
 .skateboard-container {
-    width: 500px;
-    height: 500px;
+    top: 1150px;
+    left: 500px;
+    position: absolute;
+    transform: rotate(90deg);
+    display: flex;
+    height: 50px;
+    width: 175px;
+}
+.skateboard-container img {
+    list-style-type: none;
+    /* background-color: #f6f2f2; */
+    /* padding-left: 15px; */
+    height: 100%;
+    width: 100%;
+}
+
+.contact-us {
+    top: 2350px;
+    position: absolute;
 }
