@@ -279,4 +279,37 @@ html {
 
 .contact-us {
     position: absolute;
+    border: 2px solid green;
+    background-color: #c3b8b8;
+    width: 661px;
+    top: 1150px;
+    left: 82px;
+    padding: 10px;
+}
+
+.form-label {
+    margin: 0;
+}
+
+.form-flex {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.message-box {
+    width: 60%;
+}
+
+.message {
+    display: flex;
+    width: 97%;
+    height: 150px;
+    margin-left: 10px;
+    
 }
